@@ -187,7 +187,7 @@
     <div class="absolute bottom-16 left-4 flex flex-col bg-gray-800 p-2 rounded-md z-50">
       <button on:click={() => handleFileMenu("gallery")} class="py-1 px-2 hover:bg-gray-700">Galería</button>
       <button on:click={() => handleFileMenu("camera")} class="py-1 px-2 hover:bg-gray-700">Cámara</button>
-      <button on:click={() => handleFileMenu("file")} class="py-1 px-2 hover:bg-gray-700">Archivos (PDF/Word)</button>
+      <button on:click={() => handleFileMenu("file")} class="py-1 px-2 hover:bg-gray-700">Archivo</button>
     </div>
   {/if}
 </div>
