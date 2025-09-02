@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
 
-  const BACKEND_URL = "https://mi-chatbot-backend-6vjk.onrender.com/assistant/stream";
-  const DOWNLOAD_PDF_URL = "https://mi-chatbot-backend-6vjk.onrender.com/assistant/download_pdf/";
+  const BACKEND_URL = "https://mi-chatbot-backend-ewni.onrender.com/assistant/stream";
+  const DOWNLOAD_PDF_URL = "https://mi-chatbot-backend-ewni.onrender.com/assistant/download_pdf/";
 
   let messages = [];
   let input = "";
