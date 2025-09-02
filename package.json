@@ -1,6 +1,7 @@
 {
   "name": "mi-chat-frontend",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,6 +16,7 @@
     "vite": "^5.4.19"
   },
   "engines": {
-    "node": "20"
+    "node": "20.x",
+    "npm": ">=9.0.0"
   }
 }
