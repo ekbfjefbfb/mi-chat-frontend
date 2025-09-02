@@ -5,8 +5,8 @@ const config = {
   preprocess: preprocess(),
   kit: {
     adapter: adapter(),
-    // opcional: si quieres cambiar directorio de salida
-    // files: { assets: 'static' }
+    // Si tu proyecto está en un subdirectorio de Netlify, usa 'paths.base'
+    // paths: { base: '/mi-chat-frontend' }
   }
 };
 
