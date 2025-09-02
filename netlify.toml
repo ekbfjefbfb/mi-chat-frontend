@@ -1,0 +1,16 @@
+# netlify.toml
+[build]
+  # Comando para construir tu proyecto
+  command = "npm run build"
+  # Con adapter-netlify, el directorio de publicación es la raíz
+  publish = "."
+
+# Configurar entorno de Node
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirecciones y rewrites necesarias para SvelteKit
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
