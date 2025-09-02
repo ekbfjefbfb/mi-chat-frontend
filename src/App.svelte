@@ -191,3 +191,12 @@
     </div>
   {/if}
 </div>
+
+
+
+<script>
+  const version = __APP_VERSION__;
+</script>
+
+<p>Versión: {version}</p>
+
