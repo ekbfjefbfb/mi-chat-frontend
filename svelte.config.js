@@ -1,11 +1,13 @@
 import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
 
-export default {
+const config = {
   preprocess: preprocess(),
   kit: {
     adapter: adapter(),
-    // opcional: cambia el directorio de salida si quieres
-    // out: 'build'
+    // opcional: si quieres cambiar directorio de salida
+    // files: { assets: 'static' }
   }
 };
+
+export default config;
