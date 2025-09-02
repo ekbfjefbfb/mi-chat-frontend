@@ -1,15 +1,13 @@
-# netlify.toml
 [build]
   # Comando para construir tu proyecto
   command = "npm run build"
-  # Con adapter-netlify, el directorio de publicación es 'build'
+  # El adapter-netlify genera la salida en "build"
   publish = "build"
 
-# Configurar entorno de Node
 [build.environment]
   NODE_VERSION = "18"
 
-# Redirecciones y rewrites necesarias para SvelteKit
+# Redirecciones necesarias para manejar todas las rutas de SvelteKit
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
