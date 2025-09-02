@@ -1,9 +1,9 @@
+import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-auto';
-import sveltePreprocess from 'svelte-preprocess';
 
-export const config = {
-  preprocess: sveltePreprocess(),
+export default {
+  preprocess: preprocess(),
   kit: {
-    adapter: adapter()
+    adapter: adapter(),
   }
 };
