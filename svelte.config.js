@@ -5,7 +5,7 @@ const config = {
   preprocess: preprocess(),
   kit: {
     adapter: adapter(),
-    // Si tu proyecto está en un subdirectorio de Netlify, usa 'paths.base'
+    // Solo descomenta esto si tu app no está en la raíz
     // paths: { base: '/mi-chat-frontend' }
   }
 };
