@@ -2,8 +2,8 @@
 [build]
   # Comando para construir tu proyecto
   command = "npm run build"
-  # Con adapter-netlify, el directorio de publicación es la raíz
-  publish = "."
+  # Con adapter-netlify, el directorio de publicación es 'build'
+  publish = "build"
 
 # Configurar entorno de Node
 [build.environment]
